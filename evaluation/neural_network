@@ -1,0 +1,10 @@
+// Neural Network
+digraph {
+	x [label=Inputs color=yellow]
+	w [label=Weights]
+	b [label=Biases]
+	z [label=Output shape=rectangle]
+	x -> w
+	w -> z
+	b -> z
+}
