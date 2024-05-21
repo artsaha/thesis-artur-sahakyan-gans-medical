@@ -15,13 +15,11 @@ Please note that only 2 of the learned models are available here, for many more 
   - NVIDIA Tesla K80 GPU with 12GB of VRAM (Video Random-Access Memory)
   - Stopped after 500 epochs (limit)
 
-## Provide the Code
-
 
 ## Larger GAN Versions
 
 This repository contains implementations of Generative Adversarial Networks (GANs) for generating larger images. The models are available in two versions:
-
+- **Small GAN without learnable kernel**: ./wgan_64_skip.ipynb 
 - **Larger GAN Version 1**: Please refer to the notebook [wgan_128_v1.ipynb](./wgan_128_v1.ipynb) for the implementation details and usage instructions.
 - **Larger GAN Version 2**: Please refer to the notebook [wgan_128_v2.ipynb](./wgan_128_v2.ipynb) for the implementation details and usage instructions.
 
